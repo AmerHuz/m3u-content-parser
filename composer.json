@@ -1,13 +1,13 @@
 {
-    "name": "zikwall/m3u-content-parser",
+    "name": "amerhuz/m3u-content-parser",
     "support": {
-        "issues": "https://github.com/zikwall/m3u-content-parser/issues?state=open",
-        "source": "https://github.com/zikwall/m3u-content-parser"
+        "issues": "https://github.com/amerhuz/m3u-content-parser/issues?state=open",
+        "source": "https://github.com/amerhuz/m3u-content-parser"
     },
     "authors": [
         {
-            "name": "Andrey Kapitonov",
-            "email": "andrey.kapitonov.96@gmail.com"
+            "name": "Amer Huzayen",
+            "email": "amer.huzayen@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "zikwall\\m3ucontentparser\\": "src/"
+            "amerhuz\\m3ucontentparser\\": "src/"
         }
     }
 }
