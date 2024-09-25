@@ -7,8 +7,8 @@
 
 ```php
 
-use zikwall\m3ucontentparser\M3UContentParser;
-use zikwall\m3ucontentparser\M3UItem;
+use amerhuz\m3ucontentparser\M3UContentParser;
+use amerhuz\m3ucontentparser\M3UItem;
 
 $parser = new M3UContentParser('https://iptv-org.github.io/iptv/countries/ru.m3u');
 $parser->parse();
@@ -59,7 +59,7 @@ CHANE NEW URL
 
 ```php
 
-use zikwall\m3ucontentparser\SegmentM3U;
+use amerhuz\m3ucontentparser\SegmentM3U;
 $segmant = new SegmentM3U();
 $fragment->attachSource('examples/segments/index.m3u8')->parse();
 
@@ -74,10 +74,10 @@ var_dump($segment->getIsEnding());
 
 ```php
 
-use zikwall\m3ucontentparser\M3UContentParser;
-use zikwall\m3ucontentparser\SegmentM3U;
-use zikwall\m3ucontentparser\M3UItem;
-use zikwall\m3ucontentparser\FragmentM3UItem;
+use amerhuz\m3ucontentparser\M3UContentParser;
+use amerhuz\m3ucontentparser\SegmentM3U;
+use amerhuz\m3ucontentparser\M3UItem;
+use amerhuz\m3ucontentparser\FragmentM3UItem;
 
 $parser = new M3UContentParser('https://iptv-org.github.io/iptv/countries/ru.m3u');
 $parser->parse();
@@ -273,11 +273,11 @@ $parser->parse();
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/zikwall/m3u-content-parser.git"
+            "url": "https://github.com/amerhuz/m3u-content-parser.git"
         }
     ],
     "require": {
-        "zikwall/m3u-content-parser": "dev-master"
+        "amerhuz/m3u-content-parser": "dev-master"
     }
 }
 ```
